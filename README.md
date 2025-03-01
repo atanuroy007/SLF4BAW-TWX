@@ -1,2 +1,2 @@
-# SLF4BAW-TWX
+# Atanu Logging Framework - Usage Guide
 Contains the IBM BAW supported toolkit of the logging framework

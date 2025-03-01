@@ -4,14 +4,14 @@
 
 ### 1. Download the Toolkit
 
-Download the latest version of the Advanced Java Logging Framework for IBM BAW from the GitHub repository:
-https://github.com/atanuroy007/SLF4BAW
+Download the latest version of the Atanu Logging Framework for IBM BAW from the GitHub repository:
+https://github.com/atanuroy007/SLF4BAW-TWX
 
 ### 2. Add the Toolkit Dependency to Your Process Apps
 
-Include the toolkit JAR (or Maven dependency) in your IBM BAW process app. Ensure that your process app's classpath includes the toolkit so that you can access the logging framework classes.
+Include the toolkit dependency in your IBM BAW process app.
 
-### 3. Use the Logger in Your Service Flows
+### 3. Use the Logger in Your Service Flows in the Process Apps
 
 Once the dependency is added, you can start using the logger in your IBM BAW service flows. For example:
 

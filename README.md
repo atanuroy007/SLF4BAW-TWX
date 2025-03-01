@@ -43,9 +43,9 @@ node_profile_root/
         │   ├── info.log      // INFO level logs
         │   ├── debug.log     // DEBUG level logs
         │   └── error.log     // ERROR level logs
-        └── FrameworkLogs/
-            ├── framework.log // Logs for framework-level events
-            └── trace.log     // Logs for tracing framework issues
+        ├── com.atanu.logging.ApplicationLoggerFactory
+        ├── com.atanu.logging.LoggerConfiguration
+        └── com.atanu.logging.MDCConfig
 ```
 
 You can modify these settings by updating the corresponding environment variables provided with the toolkit. This allows you to tailor the logging behavior (such as log file locations, sizes, patterns, and retention policies) to your specific deployment requirements.
